@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
     inputs:
       session_minutes:
-        description: 'Session duration after setup (15-300 minutes)'
+        description: 'Session duration after setup (15-30000 minutes)'
         required: true
         default: '120'
         type: string
